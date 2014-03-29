@@ -1,0 +1,12 @@
+#!/bin/bash
+
+set -e
+
+if [ -n "$HTTP_AUTH_USER" ]
+then
+    htpasswd -b -c /etc/nginx/htpasswd "$HTTP_AUTH_USER" "$HTTP_AUTH_PASS"
+fi
+
+envtpl /etc/nginx/nginx.conf.tpl
+
+supervisord -n
