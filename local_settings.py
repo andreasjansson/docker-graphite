@@ -1,1 +1,1 @@
-TIME_ZONE = '{{ TIME_ZONE | default("UTC") }} '
+TIME_ZONE = 'UTC'

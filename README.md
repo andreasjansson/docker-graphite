@@ -14,8 +14,6 @@ Environment variables
 * `HTTP_AUTH_USER`
   - If defined, will require the user to authenticate using this password
   - Optional, default undefined
-* `TIME_ZONE`
-  - Optional, default UTC
 
 Ports
 -----
