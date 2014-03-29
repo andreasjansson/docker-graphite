@@ -8,13 +8,13 @@ Loosely based on https://index.docker.io/u/nickstenning/graphite/
 Environment variables
 ---------------------
 
-* HTTP_AUTH_USER
+* `HTTP_AUTH_USER`
   - If defined, will require the user to authenticate using this username
   - Optional, default undefined
-* HTTP_AUTH_USER
+* `HTTP_AUTH_USER`
   - If defined, will require the user to authenticate using this password
   - Optional, default undefined
-* TIME_ZONE
+* `TIME_ZONE`
   - Optional, default UTC
 
 Ports
